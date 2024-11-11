@@ -1,0 +1,13 @@
+let A =[2, 3, 4, 5, 6]
+let [a, b] = A
+console.log (a, b)
+
+let [primo, , terzo, , quinto]=[2, 3, 4, 5, 6]
+console.log (primo, terzo, quinto)
+
+let [first, second, ...resto]=[2, 3, 4, 5, 6]
+console.log (first, second, ...resto)
+
+let [x, y] = [4, 2]
+console.log(x, y)
+console.log(A)
